@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class Login 
 {
-	@Test
+	@Test(priority = 1)
 	public void LoginwithValidData() 
 	{
 		WebDriver driver=new ChromeDriver();
@@ -32,7 +32,7 @@ public class Login
 		
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void LoginwithInValidData() 
 	{
 		WebDriver driver=new ChromeDriver();
