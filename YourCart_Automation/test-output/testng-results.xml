@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-01T09:24:36 IST" name="Default suite" finished-at="2024-12-01T09:24:40 IST" duration-ms="4665">
+    <groups>
+    </groups>
+    <test started-at="2024-12-01T09:24:36 IST" name="Default test" finished-at="2024-12-01T09:24:40 IST" duration-ms="4665">
+      <class name="com.YourCart.testcases.Login">
+        <test-method signature="LoginwithValidData()[pri:0, instance:com.YourCart.testcases.Login@47eaca72]" started-at="2024-12-01T09:24:36 IST" name="LoginwithValidData" finished-at="2024-12-01T09:24:40 IST" duration-ms="4624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithValidData -->
+      </class> <!-- com.YourCart.testcases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
