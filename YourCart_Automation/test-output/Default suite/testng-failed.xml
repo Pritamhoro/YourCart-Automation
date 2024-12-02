@@ -5,7 +5,13 @@
     <classes>
       <class name="com.YourCart.testcases.Login">
         <methods>
+          <include name="LoginwithInvalidEmail"/>
+          <include name="LoginWithEmptyFileds"/>
+          <include name="TearDown"/>
+          <include name="LoginwithInvalidPassword"/>
           <include name="LoginwithInValidData"/>
+          <include name="Setup"/>
+          <include name="LoginwithValidData"/>
         </methods>
       </class> <!-- com.YourCart.testcases.Login -->
     </classes>
