@@ -15,6 +15,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.Yourcart.utilities.Utilities;
+
 public class Login 
 {
 	WebDriver driver;
@@ -71,7 +73,7 @@ public class Login
 	public void LoginwithInValidData() 
 	{
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
-		driver.findElement(By.id("input-email")).sendKeys("ketif"+generateTimeStamp()+"@gmail.com");
+		driver.findElement(By.id("input-email")).sendKeys(Utilities.GenearteEmailwithTimeStamp());
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("keti");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
@@ -90,7 +92,7 @@ public class Login
 	public void LoginwithInvalidEmail() 
 	{
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
-		driver.findElement(By.id("input-email")).sendKeys("ketif"+generateTimeStamp()+"@gmail.com");
+		driver.findElement(By.id("input-email")).sendKeys(Utilities.GenearteEmailwithTimeStamp());
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("ketif98663");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		

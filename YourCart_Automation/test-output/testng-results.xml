@@ -2,15 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-02T08:30:50 IST" name="Default suite" finished-at="2024-12-02T08:30:54 IST" duration-ms="3763">
+  <suite started-at="2024-12-06T09:24:24 IST" name="Default suite" finished-at="2024-12-06T09:24:29 IST" duration-ms="5606">
     <groups>
     </groups>
-    <test started-at="2024-12-02T08:30:50 IST" name="Default test" finished-at="2024-12-02T08:30:54 IST" duration-ms="3763">
+    <test started-at="2024-12-06T09:24:24 IST" name="Default test" finished-at="2024-12-06T09:24:29 IST" duration-ms="5606">
       <class name="com.YourCart.testcases.Register">
-        <test-method signature="RegisterwithAllMandatoryFiled()[pri:0, instance:com.YourCart.testcases.Register@47eaca72]" started-at="2024-12-02T08:30:50 IST" name="RegisterwithAllMandatoryFiled" finished-at="2024-12-02T08:30:54 IST" duration-ms="3705" status="PASS">
+        <test-method signature="RegisterwithAllMandatoryFiled()[pri:0, instance:com.YourCart.testcases.Register@34123d65]" started-at="2024-12-06T09:24:24 IST" name="RegisterwithAllMandatoryFiled" finished-at="2024-12-06T09:24:29 IST" duration-ms="5306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterwithAllMandatoryFiled -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@34123d65]" started-at="2024-12-06T09:24:29 IST" name="tear_down" finished-at="2024-12-06T09:24:29 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
       </class> <!-- com.YourCart.testcases.Register -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
