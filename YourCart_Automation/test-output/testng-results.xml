@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-06T09:24:24 IST" name="Default suite" finished-at="2024-12-06T09:24:29 IST" duration-ms="5606">
+  <suite started-at="2024-12-07T12:07:45 IST" name="Default suite" finished-at="2024-12-07T12:07:50 IST" duration-ms="5061">
     <groups>
     </groups>
-    <test started-at="2024-12-06T09:24:24 IST" name="Default test" finished-at="2024-12-06T09:24:29 IST" duration-ms="5606">
+    <test started-at="2024-12-07T12:07:45 IST" name="Default test" finished-at="2024-12-07T12:07:50 IST" duration-ms="5061">
       <class name="com.YourCart.testcases.Register">
-        <test-method signature="RegisterwithAllMandatoryFiled()[pri:0, instance:com.YourCart.testcases.Register@34123d65]" started-at="2024-12-06T09:24:24 IST" name="RegisterwithAllMandatoryFiled" finished-at="2024-12-06T09:24:29 IST" duration-ms="5306" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@397fbdb]" started-at="2024-12-07T12:07:45 IST" name="browserSetup" finished-at="2024-12-07T12:07:48 IST" duration-ms="3326" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterwithAllMandatoryFiled -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@34123d65]" started-at="2024-12-06T09:24:29 IST" name="tear_down" finished-at="2024-12-06T09:24:29 IST" duration-ms="245" status="PASS">
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyRegisterAccountByexitingemail()[pri:3, instance:com.YourCart.testcases.Register@397fbdb]" started-at="2024-12-07T12:07:48 IST" name="verifyRegisterAccountByexitingemail" finished-at="2024-12-07T12:07:50 IST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountByexitingemail -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@397fbdb]" started-at="2024-12-07T12:07:50 IST" name="tear_down" finished-at="2024-12-07T12:07:50 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
