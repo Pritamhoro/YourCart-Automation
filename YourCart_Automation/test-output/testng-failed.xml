@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.YourCart.testcases.Register">
+      <class name="com.YourCart.testcases.Search">
         <methods>
-          <include name="RegisterwithAllMandatoryFiled"/>
+          <include name="SearchValidProduct"/>
+          <include name="Browser_Setup"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- com.YourCart.testcases.Register -->
+      </class> <!-- com.YourCart.testcases.Search -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

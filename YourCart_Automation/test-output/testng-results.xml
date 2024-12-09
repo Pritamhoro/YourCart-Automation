@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-07T12:07:45 IST" name="Default suite" finished-at="2024-12-07T12:07:50 IST" duration-ms="5061">
+  <suite started-at="2024-12-08T17:38:17 IST" name="Default suite" finished-at="2024-12-08T17:38:21 IST" duration-ms="4259">
     <groups>
     </groups>
-    <test started-at="2024-12-07T12:07:45 IST" name="Default test" finished-at="2024-12-07T12:07:50 IST" duration-ms="5061">
-      <class name="com.YourCart.testcases.Register">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@397fbdb]" started-at="2024-12-07T12:07:45 IST" name="browserSetup" finished-at="2024-12-07T12:07:48 IST" duration-ms="3326" status="PASS">
+    <test started-at="2024-12-08T17:38:17 IST" name="Default test" finished-at="2024-12-08T17:38:21 IST" duration-ms="4259">
+      <class name="com.YourCart.testcases.Search">
+        <test-method is-config="true" signature="Browser_Setup()[pri:0, instance:com.YourCart.testcases.Search@41d477ed]" started-at="2024-12-08T17:38:17 IST" name="Browser_Setup" finished-at="2024-12-08T17:38:21 IST" duration-ms="3583" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method signature="verifyRegisterAccountByexitingemail()[pri:3, instance:com.YourCart.testcases.Register@397fbdb]" started-at="2024-12-07T12:07:48 IST" name="verifyRegisterAccountByexitingemail" finished-at="2024-12-07T12:07:50 IST" duration-ms="1465" status="PASS">
+        </test-method> <!-- Browser_Setup -->
+        <test-method signature="SearchValidProduct()[pri:1, instance:com.YourCart.testcases.Search@41d477ed]" started-at="2024-12-08T17:38:21 IST" name="SearchValidProduct" finished-at="2024-12-08T17:38:21 IST" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterAccountByexitingemail -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@397fbdb]" started-at="2024-12-07T12:07:50 IST" name="tear_down" finished-at="2024-12-07T12:07:50 IST" duration-ms="217" status="PASS">
+        </test-method> <!-- SearchValidProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Search@41d477ed]" started-at="2024-12-08T17:38:21 IST" name="TearDown" finished-at="2024-12-08T17:38:21 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- com.YourCart.testcases.Register -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.YourCart.testcases.Search -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -43,7 +43,7 @@ public class base
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.get("https://naveenautomationlabs.com/opencart/");
-		driver.findElement(By.xpath("//span[text()='My Account']")).click();
+//		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		
 		return driver;
 	}
