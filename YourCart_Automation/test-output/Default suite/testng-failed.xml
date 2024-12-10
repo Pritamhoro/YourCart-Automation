@@ -5,9 +5,9 @@
     <classes>
       <class name="com.YourCart.testcases.Search">
         <methods>
-          <include name="SearchValidProduct"/>
           <include name="Browser_Setup"/>
           <include name="TearDown"/>
+          <include name="SearchInValidProduct"/>
         </methods>
       </class> <!-- com.YourCart.testcases.Search -->
     </classes>
