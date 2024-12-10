@@ -1,5 +1,7 @@
 package com.YourCart.testcases;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -12,10 +14,14 @@ import com.YourCart.base.base;
 public class Search extends base
 {
 	WebDriver driver;
+	public Search() throws IOException 
+	{
+		super();
+	}
 	@BeforeMethod
 	public void Browser_Setup() 
 	{
-		driver=IntializeBrowserandOpenApplication();		
+		driver=IntializeBrowserandOpenApplication(prop.getProperty("browser"));	
 	}
 	
 	@AfterMethod
@@ -33,7 +39,7 @@ public class Search extends base
 		Assert.assertEquals(actualProduct, "iPhone","Product is out of stock");
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void SearchInValidProduct() 
 	{
 		driver.findElement(By.xpath("//input[@name='search']")).sendKeys("IQOO");

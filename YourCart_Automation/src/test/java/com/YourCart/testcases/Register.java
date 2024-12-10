@@ -1,5 +1,6 @@
 package com.YourCart.testcases;
 
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -21,10 +22,16 @@ public class Register extends base
 {
 	WebDriver driver;
 	
+	public Register() throws IOException 
+	{
+		super();
+	}
+	
 	@BeforeMethod
 	public void browserSetup() 
 	{
-		driver=IntializeBrowserandOpenApplication();
+		driver=IntializeBrowserandOpenApplication(prop.getProperty("browser"));
+		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		driver.findElement(By.xpath("//a[text()='Register']")).click();
 	}
 	

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="YourCart Automation suite">
+  <test name=" YourCart Automation TestCases">
+    <classes>
+      <class name="com.YourCart.testcases.Login"/>
+      <class name="com.YourCart.testcases.Search"/>
+      <class name="com.YourCart.testcases.Register"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

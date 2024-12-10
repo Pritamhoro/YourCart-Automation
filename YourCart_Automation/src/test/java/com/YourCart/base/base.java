@@ -1,6 +1,10 @@
 package com.YourCart.base;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,13 +14,23 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+import com.fasterxml.jackson.databind.annotation.JsonAppend.Prop;
+
 public class base 
 {
 	WebDriver driver;
+	public Properties prop;
 	
-	public WebDriver IntializeBrowserandOpenApplication() 
+	public base() throws IOException
 	{
-		String browser="Chrome";
+		prop=new Properties();
+		File file=new File("./Yourcart/qa/config/config.properties");
+		FileInputStream fe=new FileInputStream(file);
+		prop.load(fe);
+	}
+	
+	public WebDriver IntializeBrowserandOpenApplication(String browser) 
+	{
 		
 		if(browser.equals("Chrome")) 
 		{
@@ -42,8 +56,7 @@ public class base
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-		driver.get("https://naveenautomationlabs.com/opencart/");
-//		driver.findElement(By.xpath("//span[text()='My Account']")).click();
+		driver.get(prop.getProperty("url"));
 		
 		return driver;
 	}
