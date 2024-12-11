@@ -16,6 +16,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.Test;
 
+import com.Yourcart.utilities.Utilities;
 import com.fasterxml.jackson.databind.annotation.JsonAppend.Prop;
 
 public class base 
@@ -34,30 +35,30 @@ public class base
 	{
 		String browser=prop.getProperty("browserName");
 		
-		if(browser.equals("Chrome")) 
+		if(browser.equalsIgnoreCase("Chrome")) 
 		{
 			driver=new ChromeDriver();
 		}
 		
-		else if(browser.equals("Edge")) 
+		else if(browser.equalsIgnoreCase("Edge")) 
 		{
 			driver=new EdgeDriver();
 		}
-		else if(browser.equals("Firefox")) 
+		else if(browser.equalsIgnoreCase("Firefox")) 
 		{
 			driver=new FirefoxDriver();
 		}
-		else if(browser.equals("Internet Explorer")) 
+		else if(browser.equalsIgnoreCase("Internet Explorer")) 
 		{
 			driver=new InternetExplorerDriver();
 		}
-		else if(browser.equals("Safari")) 
+		else if(browser.equalsIgnoreCase("Safari")) 
 		{
 			driver=new SafariDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Utilities.IMPLICIT_WAIT_TIME));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Utilities.PAGE_LOAD_TIME));
 		driver.get(prop.getProperty("URL"));
 		
 		return driver;
