@@ -5,6 +5,7 @@
     <classes>
       <class name="com.YourCart.testcases.Search">
         <methods>
+          <include name="SearchValidProduct"/>
           <include name="Browser_Setup"/>
           <include name="TearDown"/>
           <include name="SearchInValidProduct"/>

@@ -19,9 +19,9 @@ public class Search extends base
 		super();
 	}
 	@BeforeMethod
-	public void Browser_Setup() 
+	public void Browser_Setup() throws IOException 
 	{
-		driver=IntializeBrowserandOpenApplication(prop.getProperty("browser"));	
+		driver=IntializeBrowserandOpenApplication("Chrome");
 	}
 	
 	@AfterMethod

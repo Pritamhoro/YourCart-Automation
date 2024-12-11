@@ -30,7 +30,7 @@ public class Register extends base
 	@BeforeMethod
 	public void browserSetup() 
 	{
-		driver=IntializeBrowserandOpenApplication(prop.getProperty("browser"));
+		driver=IntializeBrowserandOpenApplication("Chrome");
 		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		driver.findElement(By.xpath("//a[text()='Register']")).click();
 	}

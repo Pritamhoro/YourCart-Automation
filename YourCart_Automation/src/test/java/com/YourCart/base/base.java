@@ -3,6 +3,7 @@ package com.YourCart.base;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
 
@@ -13,22 +14,22 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.databind.annotation.JsonAppend.Prop;
 
 public class base 
 {
 	WebDriver driver;
-	public Properties prop;
-	
-	public base() throws IOException
+	Properties prop;
+	public base() throws IOException 
 	{
 		prop=new Properties();
-		File file=new File("./Yourcart/qa/config/config.properties");
-		FileInputStream fe=new FileInputStream(file);
+		FileInputStream fe=new FileInputStream("./src/main/java/com/Yourcart/qa/Config/config.properties");
+//		File file=new File(System.getProperty("user.dir")+"./Yourcart/qa/Config/config.properties");
 		prop.load(fe);
-	}
-	
+
+}
 	public WebDriver IntializeBrowserandOpenApplication(String browser) 
 	{
 		
@@ -56,7 +57,7 @@ public class base
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-		driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("URL"));
 		
 		return driver;
 	}

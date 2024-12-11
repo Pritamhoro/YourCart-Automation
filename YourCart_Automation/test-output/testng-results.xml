@@ -1,137 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-10T08:33:47 IST" name="YourCart Automation suite" finished-at="2024-12-10T08:34:50 IST" duration-ms="63574">
+  <suite started-at="2024-12-11T09:18:04 IST" name="Default suite" finished-at="2024-12-11T09:18:20 IST" duration-ms="16125">
     <groups>
     </groups>
-    <test started-at="2024-12-10T08:33:47 IST" name=" YourCart Automation TestCases" finished-at="2024-12-10T08:34:50 IST" duration-ms="63574">
+    <test started-at="2024-12-11T09:18:04 IST" name="Default test" finished-at="2024-12-11T09:18:20 IST" duration-ms="16125">
       <class name="com.YourCart.testcases.Login">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:33:47 IST" name="Setup" finished-at="2024-12-10T08:33:52 IST" duration-ms="5640" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:04 IST" name="Setup" finished-at="2024-12-11T09:18:07 IST" duration-ms="2945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithValidData()[pri:1, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:33:52 IST" name="LoginwithValidData" finished-at="2024-12-10T08:33:53 IST" duration-ms="984" status="PASS">
+        <test-method signature="LoginwithValidData()[pri:1, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:07 IST" name="LoginwithValidData" finished-at="2024-12-11T09:18:08 IST" duration-ms="1146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithValidData -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:33:53 IST" name="TearDown" finished-at="2024-12-10T08:33:55 IST" duration-ms="1336" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:08 IST" name="TearDown" finished-at="2024-12-11T09:18:08 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:33:55 IST" name="Setup" finished-at="2024-12-10T08:33:59 IST" duration-ms="4467" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:08 IST" name="Setup" finished-at="2024-12-11T09:18:10 IST" duration-ms="2327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithInValidData()[pri:2, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:33:59 IST" name="LoginwithInValidData" finished-at="2024-12-10T08:34:00 IST" duration-ms="1036" status="PASS">
+        <test-method signature="LoginwithInValidData()[pri:2, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:10 IST" name="LoginwithInValidData" finished-at="2024-12-11T09:18:11 IST" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithInValidData -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:00 IST" name="TearDown" finished-at="2024-12-10T08:34:02 IST" duration-ms="1303" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:11 IST" name="TearDown" finished-at="2024-12-11T09:18:12 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:02 IST" name="Setup" finished-at="2024-12-10T08:34:06 IST" duration-ms="4243" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:12 IST" name="Setup" finished-at="2024-12-11T09:18:14 IST" duration-ms="2511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithInvalidEmail()[pri:3, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:06 IST" name="LoginwithInvalidEmail" finished-at="2024-12-10T08:34:07 IST" duration-ms="1091" status="PASS">
+        <test-method signature="LoginwithInvalidEmail()[pri:3, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:14 IST" name="LoginwithInvalidEmail" finished-at="2024-12-11T09:18:15 IST" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithInvalidEmail -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:07 IST" name="TearDown" finished-at="2024-12-10T08:34:08 IST" duration-ms="1273" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:15 IST" name="TearDown" finished-at="2024-12-11T09:18:15 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:08 IST" name="Setup" finished-at="2024-12-10T08:34:12 IST" duration-ms="4303" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:15 IST" name="Setup" finished-at="2024-12-11T09:18:17 IST" duration-ms="1898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithInvalidPassword()[pri:4, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:12 IST" name="LoginwithInvalidPassword" finished-at="2024-12-10T08:34:13 IST" duration-ms="1004" status="PASS">
+        <test-method signature="LoginwithInvalidPassword()[pri:4, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:17 IST" name="LoginwithInvalidPassword" finished-at="2024-12-11T09:18:17 IST" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithInvalidPassword -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:13 IST" name="TearDown" finished-at="2024-12-10T08:34:15 IST" duration-ms="1293" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:17 IST" name="TearDown" finished-at="2024-12-11T09:18:17 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:15 IST" name="Setup" finished-at="2024-12-10T08:34:19 IST" duration-ms="4448" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:17 IST" name="Setup" finished-at="2024-12-11T09:18:19 IST" duration-ms="1818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginWithEmptyFileds()[pri:5, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:19 IST" name="LoginWithEmptyFileds" finished-at="2024-12-10T08:34:20 IST" duration-ms="559" status="PASS">
+        <test-method signature="LoginWithEmptyFileds()[pri:5, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:19 IST" name="LoginWithEmptyFileds" finished-at="2024-12-11T09:18:20 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithEmptyFileds -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@765d7657]" started-at="2024-12-10T08:34:20 IST" name="TearDown" finished-at="2024-12-10T08:34:21 IST" duration-ms="1309" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@1bb5a082]" started-at="2024-12-11T09:18:20 IST" name="TearDown" finished-at="2024-12-11T09:18:20 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.YourCart.testcases.Login -->
-      <class name="com.YourCart.testcases.Search">
-        <test-method is-config="true" signature="Browser_Setup()[pri:0, instance:com.YourCart.testcases.Search@3eb25e1a]" started-at="2024-12-10T08:34:21 IST" name="Browser_Setup" finished-at="2024-12-10T08:34:23 IST" duration-ms="2291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser_Setup -->
-        <test-method signature="SearchValidProduct()[pri:1, instance:com.YourCart.testcases.Search@3eb25e1a]" started-at="2024-12-10T08:34:23 IST" name="SearchValidProduct" finished-at="2024-12-10T08:34:24 IST" duration-ms="495" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchValidProduct -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Search@3eb25e1a]" started-at="2024-12-10T08:34:24 IST" name="TearDown" finished-at="2024-12-10T08:34:24 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Browser_Setup()[pri:0, instance:com.YourCart.testcases.Search@3eb25e1a]" started-at="2024-12-10T08:34:24 IST" name="Browser_Setup" finished-at="2024-12-10T08:34:26 IST" duration-ms="1897" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser_Setup -->
-        <test-method signature="SearchInValidProduct()[pri:2, instance:com.YourCart.testcases.Search@3eb25e1a]" started-at="2024-12-10T08:34:26 IST" name="SearchInValidProduct" finished-at="2024-12-10T08:34:26 IST" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchInValidProduct -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Search@3eb25e1a]" started-at="2024-12-10T08:34:26 IST" name="TearDown" finished-at="2024-12-10T08:34:26 IST" duration-ms="136" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.YourCart.testcases.Search -->
-      <class name="com.YourCart.testcases.Register">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:26 IST" name="browserSetup" finished-at="2024-12-10T08:34:32 IST" duration-ms="5852" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method signature="RegisterwithAllMandatoryFiled()[pri:1, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:32 IST" name="RegisterwithAllMandatoryFiled" finished-at="2024-12-10T08:34:33 IST" duration-ms="928" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterwithAllMandatoryFiled -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:33 IST" name="tear_down" finished-at="2024-12-10T08:34:34 IST" duration-ms="1130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:34 IST" name="browserSetup" finished-at="2024-12-10T08:34:40 IST" duration-ms="5696" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method signature="verifyRegisterAccountByProvidingAllfiled()[pri:2, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:40 IST" name="verifyRegisterAccountByProvidingAllfiled" finished-at="2024-12-10T08:34:41 IST" duration-ms="1098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterAccountByProvidingAllfiled -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:41 IST" name="tear_down" finished-at="2024-12-10T08:34:42 IST" duration-ms="1217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:42 IST" name="browserSetup" finished-at="2024-12-10T08:34:48 IST" duration-ms="5895" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method signature="verifyRegisterAccountByexitingemail()[pri:3, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:48 IST" name="verifyRegisterAccountByexitingemail" finished-at="2024-12-10T08:34:49 IST" duration-ms="883" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterAccountByexitingemail -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@477b4cdf]" started-at="2024-12-10T08:34:49 IST" name="tear_down" finished-at="2024-12-10T08:34:50 IST" duration-ms="1129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- com.YourCart.testcases.Register -->
-    </test> <!--  YourCart Automation TestCases -->
-  </suite> <!-- YourCart Automation suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -33,7 +33,7 @@ public class Login extends base
 	@BeforeMethod
 	public void Setup() 
 	{
-		driver=IntializeBrowserandOpenApplication(prop.getProperty("browser"));
+		driver=IntializeBrowserandOpenApplication("Chrome");
 		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
 	}
