@@ -30,7 +30,7 @@ public class Register extends base
 	@BeforeMethod
 	public void browserSetup() 
 	{
-		driver=IntializeBrowserandOpenApplication("Chrome");
+		driver=IntializeBrowserandOpenApplication();
 		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		driver.findElement(By.xpath("//a[text()='Register']")).click();
 	}
@@ -91,7 +91,7 @@ public class Register extends base
 		
 		driver.findElement(By.id("input-firstname")).sendKeys("Pritam");
 		driver.findElement(By.id("input-lastname")).sendKeys("H");
-		driver.findElement(By.id("input-email")).sendKeys("ketif98663@ikowat.com");
+		driver.findElement(By.id("input-email")).sendKeys(prop.getProperty("ValidEmail"));
 		driver.findElement(By.id("input-password")).sendKeys("Pritam@123");
 		driver.findElement(By.id("input-confirm")).sendKeys("Pritam@123");
 		driver.findElement(By.xpath("//input[@name='newsletter'][@value='1']")).click();

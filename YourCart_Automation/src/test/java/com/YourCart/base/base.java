@@ -21,7 +21,7 @@ import com.fasterxml.jackson.databind.annotation.JsonAppend.Prop;
 public class base 
 {
 	WebDriver driver;
-	Properties prop;
+	public Properties prop;
 	public base() throws IOException 
 	{
 		prop=new Properties();
@@ -30,8 +30,9 @@ public class base
 		prop.load(fe);
 
 }
-	public WebDriver IntializeBrowserandOpenApplication(String browser) 
+	public WebDriver IntializeBrowserandOpenApplication() 
 	{
+		String browser=prop.getProperty("browserName");
 		
 		if(browser.equals("Chrome")) 
 		{

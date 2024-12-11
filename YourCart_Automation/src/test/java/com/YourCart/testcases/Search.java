@@ -21,7 +21,7 @@ public class Search extends base
 	@BeforeMethod
 	public void Browser_Setup() throws IOException 
 	{
-		driver=IntializeBrowserandOpenApplication("Chrome");
+		driver=IntializeBrowserandOpenApplication();
 	}
 	
 	@AfterMethod

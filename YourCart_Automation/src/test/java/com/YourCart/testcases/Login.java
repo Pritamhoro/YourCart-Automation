@@ -33,7 +33,7 @@ public class Login extends base
 	@BeforeMethod
 	public void Setup() 
 	{
-		driver=IntializeBrowserandOpenApplication("Chrome");
+		driver=IntializeBrowserandOpenApplication();
 		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
 	}
@@ -47,8 +47,8 @@ public class Login extends base
 	public void LoginwithValidData() 
 	{
 		
-		driver.findElement(By.id("input-email")).sendKeys("ketif98663@ikowat.com");
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("ketif98663");
+		driver.findElement(By.id("input-email")).sendKeys(prop.getProperty("ValidEmail"));
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(prop.getProperty("ValidPassword"));
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		
