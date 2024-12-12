@@ -14,6 +14,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.YourCart.base.base;
@@ -43,17 +44,28 @@ public class Login extends base
 		driver.quit();
 	}
 	
-	@Test(priority = 1)
-	public void LoginwithValidData() 
+	@Test(priority = 1, dataProvider = "supplyTestData")
+	public void LoginwithValidData(String Email, String Password) 
 	{
 		
-		driver.findElement(By.id("input-email")).sendKeys(prop.getProperty("ValidEmail"));
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(prop.getProperty("ValidPassword"));
+		driver.findElement(By.id("input-email")).sendKeys(Email);
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(Password);
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		
 		Assert.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed(),"Edit yout account is not displaying");		
 	}
+	
+	@DataProvider
+	public  Object [] [] supplyTestData() 
+	{
+		Object [] [] data=new Object[] [] {{"ketif98663@ikowat.com", "ketif98663"},
+											{"ketif9866@ikowat.com", "ketif98663"} , 
+											{"ketif983@ikowat.com", "ketif98663"}};
+			return data;
+	
+	}
+	
 	
 	@Test(priority=2)
 	public void LoginwithInValidData() 
