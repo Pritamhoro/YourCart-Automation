@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.YourCart.testcases.Search">
+      <class name="com.YourCart.testcases.Login">
         <methods>
-          <include name="SearchValidProduct"/>
-          <include name="Browser_Setup"/>
           <include name="TearDown"/>
-          <include name="SearchInValidProduct"/>
+          <include name="Setup"/>
+          <include name="LoginwithValidData" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.YourCart.testcases.Search -->
+      </class> <!-- com.YourCart.testcases.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
