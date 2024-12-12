@@ -57,15 +57,23 @@ public class Login extends base
 	}
 	
 	@DataProvider
-	public  Object [] [] supplyTestData() 
+	public  Object [] [] supplyTestData() throws IOException 
 	{
-		Object [] [] data=new Object[] [] {{"ketif98663@ikowat.com", "ketif98663"},
-											{"ketif9866@ikowat.com", "ketif98663"} , 
-											{"ketif983@ikowat.com", "ketif98663"}};
-			return data;
+		Object [] [] data=Utilities.GetTestDataFromExecl("Login");
+		return data;
 	
 	}
 	
+//	@DataProvider
+//	public  Object [] [] supplyTestData() 
+//	{
+//		Object [] [] data=new Object[] [] {{"ketif98663@ikowat.com", "ketif98663"},
+//											{"ketif9866@ikowat.com", "ketif98663"} , 
+//											{"ketif983@ikowat.com", "ketif98663"}};
+//			return data;
+//	
+//	}
+//	
 	
 	@Test(priority=2)
 	public void LoginwithInValidData() 

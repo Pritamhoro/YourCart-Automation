@@ -7,7 +7,7 @@
         <methods>
           <include name="TearDown"/>
           <include name="Setup"/>
-          <include name="LoginwithValidData" invocation-numbers="1 2"/>
+          <include name="LoginwithValidData"/>
         </methods>
       </class> <!-- com.YourCart.testcases.Login -->
     </classes>
