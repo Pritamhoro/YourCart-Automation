@@ -2,11 +2,14 @@ package com.Yourcart.utilities;
 
 
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Date;
 
 import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -27,24 +30,21 @@ public class Utilities
 	}
 	
 	@Test
-	public static Object[][] GetTestDataFromExecl(String sheetName) throws IOException 
+	public static Object[][] GetTestDataFromExecl(String sheet1) throws IOException 
 	{
+		
 		FileInputStream FIS=new FileInputStream("./src/main/java/com/Yourcart/qa/TestData/YourcartTestData.xlsx");
 		XSSFWorkbook workbook=new XSSFWorkbook(FIS);
-		XSSFSheet sheet = workbook.getSheet(sheetName);
-		if (sheet == null) 
-		{
-		    throw new RuntimeException("Sheet not found: " + sheetName);
-		}
+		XSSFSheet getSheet =workbook.getSheet(sheet1);
 		
-		int rows=sheet.getLastRowNum();
-		int columns=sheet.getRow(0).getLastCellNum();
+		int rows=getSheet.getLastRowNum();
+		int columns=getSheet.getRow(1).getLastCellNum();
 		
 		Object[][] data=new Object[rows][columns];
 		
 		for(int i=0;i<rows;i++) 
 		{
-			XSSFRow row = sheet.getRow(i+1);
+			XSSFRow row = getSheet.getRow(i+1);
 			
 			for(int j=0;j<columns;j++) 
 			{
