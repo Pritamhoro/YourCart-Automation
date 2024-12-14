@@ -18,25 +18,26 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.YourCart.base.base;
+import com.Yourcart.qa.pages.HomePage;
 import com.Yourcart.utilities.Utilities;
 
 import net.bytebuddy.implementation.bind.annotation.Super;
 
 public class Login extends base
 {
-	
+	WebDriver driver;
 	public Login() throws IOException 
 	{
 		super();
 	}
-	WebDriver driver;
 	
 	@BeforeMethod
 	public void Setup() 
 	{
 		driver=IntializeBrowserandOpenApplication();
-		driver.findElement(By.xpath("//span[text()='My Account']")).click();
-		driver.findElement(By.xpath("//a[text()='Login']")).click();
+		HomePage homepage=new HomePage(driver);
+		homepage.ClickOnMyAccount();
+		homepage.ClickonLoginButton();
 	}
 	@AfterMethod
 	public void TearDown() 
