@@ -19,6 +19,7 @@ import org.testng.annotations.Test;
 
 import com.YourCart.base.base;
 import com.Yourcart.qa.pages.HomePage;
+import com.Yourcart.qa.pages.LoginPage;
 import com.Yourcart.utilities.Utilities;
 
 import net.bytebuddy.implementation.bind.annotation.Super;
@@ -49,9 +50,10 @@ public class Login extends base
 	public void LoginwithValidData(String Email, String Password) 
 	{
 		
-		driver.findElement(By.id("input-email")).sendKeys(Email);
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(Password);
-		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		LoginPage loginpage=new LoginPage(driver);
+		loginpage.enterEmailAddress(Email);
+		loginpage.enterPassword(Password);
+		loginpage.ClickonLoginButton();
 		
 		
 		Assert.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed(),"Edit yout account is not displaying");		
