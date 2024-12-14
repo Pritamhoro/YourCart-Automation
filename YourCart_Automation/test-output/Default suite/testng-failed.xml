@@ -6,8 +6,8 @@
       <class name="com.YourCart.testcases.Login">
         <methods>
           <include name="TearDown"/>
+          <include name="LoginwithInvalidPassword"/>
           <include name="Setup"/>
-          <include name="LoginwithValidData" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- com.YourCart.testcases.Login -->
     </classes>

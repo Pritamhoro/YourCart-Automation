@@ -104,7 +104,7 @@ public class Login extends base
 	@Test(priority=4)
 	public void LoginwithInvalidPassword() 
 	{
-		driver.findElement(By.id("input-email")).sendKeys("ketif98663@ikowat.com");
+		driver.findElement(By.id("input-email")).sendKeys(prop.getProperty("ValidEmail"));
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("keti");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		

@@ -9,17 +9,16 @@ public class HomePage
 {
 	
 	WebDriver driver;
-	@FindBy(xpath="//span[text()='My Account'")
+	@FindBy(xpath="//span[text()='My Account']")
 	private WebElement MyAccountButton;
 	
 	@FindBy(xpath="//a[text()='Login']")
 	private WebElement LoginButton;
 	
-	
 	public HomePage(WebDriver driver) 
 	{
 		this.driver=driver;
-		PageFactory.initElements(driver, HomePage.class);
+		PageFactory.initElements(driver,this);
 	}
 	
 	//Action 
