@@ -6,6 +6,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.Yourcart.utilities.ExtendReporter;
 import com.aventstack.extentreports.reporter.ExtentReporter;
 
 public class myListeners implements ITestListener
@@ -28,6 +29,10 @@ public class myListeners implements ITestListener
 	public void onTestFailure(ITestResult result) 
 	{
 		String testresult=result.getName();
+		System.out.println("Screenshot taken");
+		
+		result.getTestClass().getRealClass();
+		
 		System.out.println( "Execution failed  "+testresult);
 	}
 
@@ -41,7 +46,7 @@ public class myListeners implements ITestListener
 	@Override
 	public void onStart(ITestContext context) 
 	{
-		
+		System.out.println("Onstart executing project tests");
 	}
 
 	@Override

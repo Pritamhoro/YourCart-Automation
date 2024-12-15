@@ -8,7 +8,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtendReporter 
 {
-	public static void GenerateExtentReport() 
+	public static void  GenerateExtentReport() 
 	{
 		ExtentReports extentreports=new ExtentReports();
 		File extentReportFile=new File("./test-output/ExtentReport/extentReport.html");

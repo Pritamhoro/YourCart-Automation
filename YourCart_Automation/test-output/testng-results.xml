@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-15T15:00:18 IST" name="YourCart Automation suite" finished-at="2024-12-15T15:01:31 IST" duration-ms="72166">
+  <suite started-at="2024-12-15T16:23:10 IST" name="YourCart Automation suite" finished-at="2024-12-15T16:24:13 IST" duration-ms="63464">
     <groups>
     </groups>
-    <test started-at="2024-12-15T15:00:18 IST" name=" YourCart Automation TestCases" finished-at="2024-12-15T15:01:31 IST" duration-ms="72166">
+    <test started-at="2024-12-15T16:23:10 IST" name=" YourCart Automation TestCases" finished-at="2024-12-15T16:24:13 IST" duration-ms="63464">
       <class name="com.YourCart.testcases.Login">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:19 IST" name="Setup" finished-at="2024-12-15T15:00:23 IST" duration-ms="4051" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:10 IST" name="Setup" finished-at="2024-12-15T16:23:15 IST" duration-ms="4328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithValidData(java.lang.String,java.lang.String)[pri:1, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:23 IST" name="LoginwithValidData" data-provider="supplyTestData" finished-at="2024-12-15T15:00:24 IST" duration-ms="1124" status="PASS">
+        <test-method signature="LoginwithValidData(java.lang.String,java.lang.String)[pri:1, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:15 IST" name="LoginwithValidData" data-provider="supplyTestData" finished-at="2024-12-15T16:23:15 IST" duration-ms="713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithValidData -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:24 IST" name="TearDown" finished-at="2024-12-15T15:00:25 IST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:15 IST" name="TearDown" finished-at="2024-12-15T16:23:16 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:25 IST" name="Setup" finished-at="2024-12-15T15:00:28 IST" duration-ms="3397" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:16 IST" name="Setup" finished-at="2024-12-15T16:23:18 IST" duration-ms="2145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithValidData(java.lang.String,java.lang.String)[pri:1, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:28 IST" name="LoginwithValidData" data-provider="supplyTestData" finished-at="2024-12-15T15:00:39 IST" duration-ms="10838" status="FAIL">
+        <test-method signature="LoginwithValidData(java.lang.String,java.lang.String)[pri:1, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:18 IST" name="LoginwithValidData" data-provider="supplyTestData" finished-at="2024-12-15T16:23:28 IST" duration-ms="10608" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -56,9 +56,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [59a00819dcec5386310bb582d2cfb1a3, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59a00819dcec5386310bb582d2cfb1a3]]>
+Command: [122982c9074c20f202a87b0f676894ef, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55098/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 122982c9074c20f202a87b0f676894ef]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
@@ -67,9 +67,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [59a00819dcec5386310bb582d2cfb1a3, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59a00819dcec5386310bb582d2cfb1a3
+Command: [122982c9074c20f202a87b0f676894ef, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55098/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 122982c9074c20f202a87b0f676894ef
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -117,15 +117,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithValidData -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:39 IST" name="TearDown" finished-at="2024-12-15T15:00:39 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:28 IST" name="TearDown" finished-at="2024-12-15T16:23:28 IST" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:39 IST" name="Setup" finished-at="2024-12-15T15:00:41 IST" duration-ms="2389" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:28 IST" name="Setup" finished-at="2024-12-15T16:23:31 IST" duration-ms="2883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithValidData(java.lang.String,java.lang.String)[pri:1, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:41 IST" name="LoginwithValidData" data-provider="supplyTestData" finished-at="2024-12-15T15:00:52 IST" duration-ms="10946" status="FAIL">
+        <test-method signature="LoginwithValidData(java.lang.String,java.lang.String)[pri:1, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:31 IST" name="LoginwithValidData" data-provider="supplyTestData" finished-at="2024-12-15T16:23:42 IST" duration-ms="10438" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -146,9 +146,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d9968a312f9a73d6d3ecd780f243a002, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53044/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d9968a312f9a73d6d3ecd780f243a002]]>
+Command: [c93a48cb668519612fa8c44ea9fdf55c, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55129/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c93a48cb668519612fa8c44ea9fdf55c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
@@ -157,9 +157,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d9968a312f9a73d6d3ecd780f243a002, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53044/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d9968a312f9a73d6d3ecd780f243a002
+Command: [c93a48cb668519612fa8c44ea9fdf55c, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55129/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c93a48cb668519612fa8c44ea9fdf55c
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -207,119 +207,119 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithValidData -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:52 IST" name="TearDown" finished-at="2024-12-15T15:00:53 IST" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:42 IST" name="TearDown" finished-at="2024-12-15T16:23:42 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:53 IST" name="Setup" finished-at="2024-12-15T15:00:55 IST" duration-ms="2389" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:42 IST" name="Setup" finished-at="2024-12-15T16:23:45 IST" duration-ms="2956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithInValidData()[pri:2, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:55 IST" name="LoginwithInValidData" finished-at="2024-12-15T15:00:56 IST" duration-ms="1056" status="PASS">
+        <test-method signature="LoginwithInValidData()[pri:2, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:45 IST" name="LoginwithInValidData" finished-at="2024-12-15T16:23:45 IST" duration-ms="488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithInValidData -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:56 IST" name="TearDown" finished-at="2024-12-15T15:00:56 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:45 IST" name="TearDown" finished-at="2024-12-15T16:23:45 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:56 IST" name="Setup" finished-at="2024-12-15T15:00:59 IST" duration-ms="2303" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:45 IST" name="Setup" finished-at="2024-12-15T16:23:47 IST" duration-ms="1907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithInvalidEmail()[pri:3, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:00:59 IST" name="LoginwithInvalidEmail" finished-at="2024-12-15T15:01:00 IST" duration-ms="1086" status="PASS">
+        <test-method signature="LoginwithInvalidEmail()[pri:3, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:47 IST" name="LoginwithInvalidEmail" finished-at="2024-12-15T16:23:48 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithInvalidEmail -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:01:00 IST" name="TearDown" finished-at="2024-12-15T15:01:00 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:48 IST" name="TearDown" finished-at="2024-12-15T16:23:48 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:01:00 IST" name="Setup" finished-at="2024-12-15T15:01:02 IST" duration-ms="2209" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:48 IST" name="Setup" finished-at="2024-12-15T16:23:51 IST" duration-ms="2879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginwithInvalidPassword()[pri:4, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:01:02 IST" name="LoginwithInvalidPassword" finished-at="2024-12-15T15:01:03 IST" duration-ms="600" status="PASS">
+        <test-method signature="LoginwithInvalidPassword()[pri:4, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:51 IST" name="LoginwithInvalidPassword" finished-at="2024-12-15T16:23:51 IST" duration-ms="495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithInvalidPassword -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:01:03 IST" name="TearDown" finished-at="2024-12-15T15:01:03 IST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:51 IST" name="TearDown" finished-at="2024-12-15T16:23:52 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:01:03 IST" name="Setup" finished-at="2024-12-15T15:01:07 IST" duration-ms="4020" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:52 IST" name="Setup" finished-at="2024-12-15T16:23:54 IST" duration-ms="2880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginWithEmptyFileds()[pri:5, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:01:07 IST" name="LoginWithEmptyFileds" finished-at="2024-12-15T15:01:07 IST" duration-ms="609" status="PASS">
+        <test-method signature="LoginWithEmptyFileds()[pri:5, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:54 IST" name="LoginWithEmptyFileds" finished-at="2024-12-15T16:23:55 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithEmptyFileds -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@4fce136b]" started-at="2024-12-15T15:01:07 IST" name="TearDown" finished-at="2024-12-15T15:01:08 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Login@5b068087]" started-at="2024-12-15T16:23:55 IST" name="TearDown" finished-at="2024-12-15T16:23:55 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.YourCart.testcases.Login -->
       <class name="com.YourCart.testcases.Search">
-        <test-method is-config="true" signature="Browser_Setup()[pri:0, instance:com.YourCart.testcases.Search@3b0c9195]" started-at="2024-12-15T15:01:08 IST" name="Browser_Setup" finished-at="2024-12-15T15:01:09 IST" duration-ms="1899" status="PASS">
+        <test-method is-config="true" signature="Browser_Setup()[pri:0, instance:com.YourCart.testcases.Search@4cf8b2dc]" started-at="2024-12-15T16:23:55 IST" name="Browser_Setup" finished-at="2024-12-15T16:23:59 IST" duration-ms="3633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Setup -->
-        <test-method signature="SearchValidProduct()[pri:1, instance:com.YourCart.testcases.Search@3b0c9195]" started-at="2024-12-15T15:01:09 IST" name="SearchValidProduct" finished-at="2024-12-15T15:01:10 IST" duration-ms="495" status="PASS">
+        <test-method signature="SearchValidProduct()[pri:1, instance:com.YourCart.testcases.Search@4cf8b2dc]" started-at="2024-12-15T16:23:59 IST" name="SearchValidProduct" finished-at="2024-12-15T16:23:59 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchValidProduct -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Search@3b0c9195]" started-at="2024-12-15T15:01:10 IST" name="TearDown" finished-at="2024-12-15T15:01:10 IST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Search@4cf8b2dc]" started-at="2024-12-15T16:23:59 IST" name="TearDown" finished-at="2024-12-15T16:23:59 IST" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Browser_Setup()[pri:0, instance:com.YourCart.testcases.Search@3b0c9195]" started-at="2024-12-15T15:01:10 IST" name="Browser_Setup" finished-at="2024-12-15T15:01:13 IST" duration-ms="2716" status="PASS">
+        <test-method is-config="true" signature="Browser_Setup()[pri:0, instance:com.YourCart.testcases.Search@4cf8b2dc]" started-at="2024-12-15T16:23:59 IST" name="Browser_Setup" finished-at="2024-12-15T16:24:02 IST" duration-ms="2636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Setup -->
-        <test-method signature="SearchInValidProduct()[pri:2, instance:com.YourCart.testcases.Search@3b0c9195]" started-at="2024-12-15T15:01:13 IST" name="SearchInValidProduct" finished-at="2024-12-15T15:01:13 IST" duration-ms="513" status="PASS">
+        <test-method signature="SearchInValidProduct()[pri:2, instance:com.YourCart.testcases.Search@4cf8b2dc]" started-at="2024-12-15T16:24:02 IST" name="SearchInValidProduct" finished-at="2024-12-15T16:24:02 IST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchInValidProduct -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Search@3b0c9195]" started-at="2024-12-15T15:01:13 IST" name="TearDown" finished-at="2024-12-15T15:01:13 IST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.YourCart.testcases.Search@4cf8b2dc]" started-at="2024-12-15T16:24:02 IST" name="TearDown" finished-at="2024-12-15T16:24:02 IST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.YourCart.testcases.Search -->
       <class name="com.YourCart.testcases.Register">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:13 IST" name="browserSetup" finished-at="2024-12-15T15:01:17 IST" duration-ms="3378" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:02 IST" name="browserSetup" finished-at="2024-12-15T16:24:04 IST" duration-ms="1934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="RegisterwithAllMandatoryFiled()[pri:1, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:17 IST" name="RegisterwithAllMandatoryFiled" finished-at="2024-12-15T15:01:19 IST" duration-ms="2286" status="PASS">
+        <test-method signature="RegisterwithAllMandatoryFiled()[pri:1, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:04 IST" name="RegisterwithAllMandatoryFiled" finished-at="2024-12-15T16:24:05 IST" duration-ms="1017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterwithAllMandatoryFiled -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:19 IST" name="tear_down" finished-at="2024-12-15T15:01:19 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:05 IST" name="tear_down" finished-at="2024-12-15T16:24:05 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:19 IST" name="browserSetup" finished-at="2024-12-15T15:01:24 IST" duration-ms="4350" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:05 IST" name="browserSetup" finished-at="2024-12-15T16:24:08 IST" duration-ms="3000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="verifyRegisterAccountByProvidingAllfiled()[pri:2, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:24 IST" name="verifyRegisterAccountByProvidingAllfiled" finished-at="2024-12-15T15:01:25 IST" duration-ms="1807" status="PASS">
+        <test-method signature="verifyRegisterAccountByProvidingAllfiled()[pri:2, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:08 IST" name="verifyRegisterAccountByProvidingAllfiled" finished-at="2024-12-15T16:24:09 IST" duration-ms="979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountByProvidingAllfiled -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:25 IST" name="tear_down" finished-at="2024-12-15T15:01:26 IST" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:09 IST" name="tear_down" finished-at="2024-12-15T16:24:09 IST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:26 IST" name="browserSetup" finished-at="2024-12-15T15:01:29 IST" duration-ms="3371" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:09 IST" name="browserSetup" finished-at="2024-12-15T16:24:12 IST" duration-ms="2920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="verifyRegisterAccountByexitingemail()[pri:3, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:29 IST" name="verifyRegisterAccountByexitingemail" finished-at="2024-12-15T15:01:30 IST" duration-ms="1320" status="PASS">
+        <test-method signature="verifyRegisterAccountByexitingemail()[pri:3, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:12 IST" name="verifyRegisterAccountByexitingemail" finished-at="2024-12-15T16:24:13 IST" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountByexitingemail -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@366c4480]" started-at="2024-12-15T15:01:30 IST" name="tear_down" finished-at="2024-12-15T15:01:31 IST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.YourCart.testcases.Register@708400f6]" started-at="2024-12-15T16:24:13 IST" name="tear_down" finished-at="2024-12-15T16:24:13 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
