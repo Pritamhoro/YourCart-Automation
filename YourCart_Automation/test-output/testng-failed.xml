@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [YourCart Automation suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Yourcart.qa.listeners.myListeners"/>
+  </listeners>
+  <test thread-count="5" name=" YourCart Automation TestCases(failed)">
     <classes>
       <class name="com.YourCart.testcases.Login">
         <methods>
           <include name="TearDown"/>
-          <include name="LoginwithInvalidPassword"/>
           <include name="Setup"/>
+          <include name="LoginwithValidData" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- com.YourCart.testcases.Login -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!--  YourCart Automation TestCases(failed) -->
+</suite> <!-- Failed suite [YourCart Automation suite] -->

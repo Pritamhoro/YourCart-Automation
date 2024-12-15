@@ -1,8 +1,12 @@
 package com.Yourcart.qa.listeners;
 
+import java.sql.ResultSet;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
+import com.aventstack.extentreports.reporter.ExtentReporter;
 
 public class myListeners implements ITestListener
 {
@@ -37,9 +41,6 @@ public class myListeners implements ITestListener
 	@Override
 	public void onStart(ITestContext context) 
 	{
-		ITestContext result = null;
-		String testresult=result.getName();
-		System.out.println( "Start executing "+testresult);
 		
 	}
 
