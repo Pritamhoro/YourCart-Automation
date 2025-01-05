@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-YourCart_Automation_suite" class="navigator-link">
-              <span class="suite-name border-failed">YourCart Automation suite</span>
+              <span class="suite-name border-passed">YourCart Automation suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-YourCart_Automation_suite" class="hide-methods failed suite-YourCart_Automation_suite"> (hide)</a> <!-- hide-methods failed suite-YourCart_Automation_suite -->
-                      <a href="#" panel-name="suite-YourCart_Automation_suite" class="show-methods failed suite-YourCart_Automation_suite"> (show)</a> <!-- show-methods failed suite-YourCart_Automation_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-YourCart_Automation_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-YourCart_Automation_suite" title="com.YourCart.testcases.Login" class="method navigator-link" hash-for-method="LoginwithValidData(ketif9866@ikowat.com, ketif98664)">LoginwithValidData(ketif9866@ikowat.com, ketif98664)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-YourCart_Automation_suite" title="com.YourCart.testcases.Login" class="method navigator-link" hash-for-method="LoginwithValidData(ketif983@ikowat.com, ketif98665)">LoginwithValidData(ketif983@ikowat.com, ketif98665)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-YourCart_Automation_suite -->
+                    <span class="method-stats">12 methods,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -138,6 +119,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-YourCart_Automation_suite" title="com.YourCart.testcases.Login" class="method navigator-link" hash-for-method="LoginwithInvalidPassword">LoginwithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-YourCart_Automation_suite" title="com.YourCart.testcases.Login" class="method navigator-link" hash-for-method="LoginwithValidData(ketif98663@ikowat.com, ketif98663)">LoginwithValidData(ketif98663@ikowat.com, ketif98663)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-YourCart_Automation_suite" title="com.YourCart.testcases.Login" class="method navigator-link" hash-for-method="LoginwithValidData(ketif98663@ikowat.com, ketif98663)">LoginwithValidData(ketif98663@ikowat.com, ketif98663)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -182,78 +173,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-YourCart_Automation_suite" class="panel YourCart_Automation_suite">
-          <div class="suite-YourCart_Automation_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.YourCart.testcases.Login</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginwithValidData(ketif9866@ikowat.com, ketif98664)">
-                  </a> <!-- LoginwithValidData(ketif9866@ikowat.com, ketif98664) -->
-                  <span class="method-name">LoginwithValidData</span>
-                  <span class="parameters">(ketif9866@ikowat.com,ketif98664)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Edit your account information&quot;}
-  (Session info: chrome=131.0.6778.140)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [122982c9074c20f202a87b0f676894ef, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55098/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 122982c9074c20f202a87b0f676894ef
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.YourCart.testcases.Login.LoginwithValidData(Login.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginwithValidData(ketif983@ikowat.com, ketif98665)">
-                  </a> <!-- LoginwithValidData(ketif983@ikowat.com, ketif98665) -->
-                  <span class="method-name">LoginwithValidData</span>
-                  <span class="parameters">(ketif983@ikowat.com,ketif98665)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Edit your account information&quot;}
-  (Session info: chrome=131.0.6778.140)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c93a48cb668519612fa8c44ea9fdf55c, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\prita\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55129/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c93a48cb668519612fa8c44ea9fdf55c
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.YourCart.testcases.Login.LoginwithValidData(Login.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-YourCart_Automation_suite-class-failed -->
           <div class="suite-YourCart_Automation_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -315,6 +234,22 @@ Session ID: c93a48cb668519612fa8c44ea9fdf55c
                   <a name="LoginwithInvalidPassword">
                   </a> <!-- LoginwithInvalidPassword -->
                   <span class="method-name">LoginwithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginwithValidData(ketif98663@ikowat.com, ketif98663)">
+                  </a> <!-- LoginwithValidData(ketif98663@ikowat.com, ketif98663) -->
+                  <span class="method-name">LoginwithValidData</span>
+                  <span class="parameters">(ketif98663@ikowat.com,ketif98663)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginwithValidData(ketif98663@ikowat.com, ketif98663)">
+                  </a> <!-- LoginwithValidData(ketif98663@ikowat.com, ketif98663) -->
+                  <span class="method-name">LoginwithValidData</span>
+                  <span class="parameters">(ketif98663@ikowat.com,ketif98663)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -408,58 +343,58 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginwithValidData')
-data.setCell(0, 2, 'com.YourCart.testcases.Login')
-data.setCell(0, 3, 10608);
+data.setCell(0, 1, 'verifyRegisterAccountByProvidingAllfiled')
+data.setCell(0, 2, 'com.YourCart.testcases.Register')
+data.setCell(0, 3, 1850);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginwithValidData')
-data.setCell(1, 2, 'com.YourCart.testcases.Login')
-data.setCell(1, 3, 10438);
+data.setCell(1, 1, 'verifyRegisterAccountByexitingemail')
+data.setCell(1, 2, 'com.YourCart.testcases.Register')
+data.setCell(1, 3, 1653);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'RegisterwithAllMandatoryFiled')
 data.setCell(2, 2, 'com.YourCart.testcases.Register')
-data.setCell(2, 3, 1017);
+data.setCell(2, 3, 1452);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyRegisterAccountByProvidingAllfiled')
-data.setCell(3, 2, 'com.YourCart.testcases.Register')
-data.setCell(3, 3, 979);
+data.setCell(3, 1, 'LoginwithValidData')
+data.setCell(3, 2, 'com.YourCart.testcases.Login')
+data.setCell(3, 3, 1100);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyRegisterAccountByexitingemail')
-data.setCell(4, 2, 'com.YourCart.testcases.Register')
-data.setCell(4, 3, 754);
+data.setCell(4, 1, 'LoginwithValidData')
+data.setCell(4, 2, 'com.YourCart.testcases.Login')
+data.setCell(4, 3, 1095);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'LoginwithValidData')
 data.setCell(5, 2, 'com.YourCart.testcases.Login')
-data.setCell(5, 3, 713);
+data.setCell(5, 3, 1086);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'LoginwithInvalidEmail')
+data.setCell(6, 1, 'LoginwithInValidData')
 data.setCell(6, 2, 'com.YourCart.testcases.Login')
-data.setCell(6, 3, 509);
+data.setCell(6, 3, 1041);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'LoginwithInvalidPassword')
+data.setCell(7, 1, 'LoginwithInvalidEmail')
 data.setCell(7, 2, 'com.YourCart.testcases.Login')
-data.setCell(7, 3, 495);
+data.setCell(7, 3, 870);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'LoginwithInValidData')
+data.setCell(8, 1, 'LoginwithInvalidPassword')
 data.setCell(8, 2, 'com.YourCart.testcases.Login')
-data.setCell(8, 3, 488);
+data.setCell(8, 3, 706);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'LoginWithEmptyFileds')
-data.setCell(9, 2, 'com.YourCart.testcases.Login')
-data.setCell(9, 3, 394);
+data.setCell(9, 1, 'SearchValidProduct')
+data.setCell(9, 2, 'com.YourCart.testcases.Search')
+data.setCell(9, 3, 612);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'SearchValidProduct')
-data.setCell(10, 2, 'com.YourCart.testcases.Search')
-data.setCell(10, 3, 374);
+data.setCell(10, 1, 'LoginWithEmptyFileds')
+data.setCell(10, 2, 'com.YourCart.testcases.Login')
+data.setCell(10, 3, 561);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'SearchInValidProduct')
 data.setCell(11, 2, 'com.YourCart.testcases.Search')
-data.setCell(11, 3, 332);
+data.setCell(11, 3, 560);
 window.suiteTableData['YourCart_Automation_suite']= { tableData: data, tableDiv: 'times-div-YourCart_Automation_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-YourCart_Automation_suite">
               </div> <!-- times-div-YourCart_Automation_suite -->
             </div> <!-- times-div -->
@@ -492,153 +427,149 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginwithValidData(ketif98663@ikowat.com, ketif98663)</span>
-                <span class="method-start">4329 ms</span>
+                <span class="method-start">5146 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">5046 ms</span>
+                <span class="method-start">6244 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">5220 ms</span>
+                <span class="method-start">6494 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">LoginwithValidData(ketif9866@ikowat.com, ketif98664)</span>
-                <span class="method-start">7365 ms</span>
+                <span class="method-name">LoginwithValidData(ketif98663@ikowat.com, ketif98663)</span>
+                <span class="method-start">8825 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">17978 ms</span>
+                <span class="method-start">9913 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">18128 ms</span>
+                <span class="method-start">10117 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">LoginwithValidData(ketif983@ikowat.com, ketif98665)</span>
-                <span class="method-start">21011 ms</span>
+                <span class="method-name">LoginwithValidData(ketif98663@ikowat.com, ketif98663)</span>
+                <span class="method-start">12256 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">31452 ms</span>
+                <span class="method-start">13358 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">31620 ms</span>
+                <span class="method-start">13587 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginwithInValidData</span>
-                <span class="method-start">34577 ms</span>
+                <span class="method-start">15931 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">35067 ms</span>
+                <span class="method-start">16975 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">35183 ms</span>
+                <span class="method-start">17169 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginwithInvalidEmail</span>
-                <span class="method-start">37090 ms</span>
+                <span class="method-start">19623 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">37600 ms</span>
+                <span class="method-start">20495 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">37730 ms</span>
+                <span class="method-start">20679 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginwithInvalidPassword</span>
-                <span class="method-start">40609 ms</span>
+                <span class="method-start">23133 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">41106 ms</span>
+                <span class="method-start">23840 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">41224 ms</span>
+                <span class="method-start">24005 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginWithEmptyFileds</span>
-                <span class="method-start">44104 ms</span>
+                <span class="method-start">26068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">44499 ms</span>
+                <span class="method-start">26631 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.YourCart.testcases.Search</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Browser_Setup</span>
-                <span class="method-start">44638 ms</span>
+                <span class="method-start">26798 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchValidProduct</span>
-                <span class="method-start">48271 ms</span>
+                <span class="method-start">28391 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">48646 ms</span>
+                <span class="method-start">29004 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Browser_Setup</span>
-                <span class="method-start">48733 ms</span>
+                <span class="method-start">29124 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchInValidProduct</span>
-                <span class="method-start">51369 ms</span>
+                <span class="method-start">30703 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">51702 ms</span>
+                <span class="method-start">31264 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.YourCart.testcases.Register</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetup</span>
-                <span class="method-start">51786 ms</span>
+                <span class="method-start">31330 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterwithAllMandatoryFiled</span>
-                <span class="method-start">53720 ms</span>
+                <span class="method-start">33379 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tear_down</span>
-                <span class="method-start">54739 ms</span>
+                <span class="method-start">34832 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetup</span>
-                <span class="method-start">54862 ms</span>
+                <span class="method-start">35053 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyRegisterAccountByProvidingAllfiled</span>
-                <span class="method-start">57862 ms</span>
+                <span class="method-start">37533 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tear_down</span>
-                <span class="method-start">58842 ms</span>
+                <span class="method-start">39385 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetup</span>
-                <span class="method-start">58970 ms</span>
+                <span class="method-start">39601 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyRegisterAccountByexitingemail</span>
-                <span class="method-start">61891 ms</span>
+                <span class="method-start">41976 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tear_down</span>
-                <span class="method-start">62646 ms</span>
+                <span class="method-start">43631 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

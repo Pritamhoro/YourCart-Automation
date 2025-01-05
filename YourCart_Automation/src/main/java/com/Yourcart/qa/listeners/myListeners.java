@@ -1,17 +1,15 @@
 package com.Yourcart.qa.listeners;
 
-import java.sql.ResultSet;
+
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import com.Yourcart.utilities.ExtendReporter;
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentReporter;
 
 public class myListeners implements ITestListener
 {
-
 	@Override
 	public void onTestStart(ITestResult result) 
 	{
@@ -30,9 +28,7 @@ public class myListeners implements ITestListener
 	{
 		String testresult=result.getName();
 		System.out.println("Screenshot taken");
-		
 		result.getTestClass().getRealClass();
-		
 		System.out.println( "Execution failed  "+testresult);
 	}
 

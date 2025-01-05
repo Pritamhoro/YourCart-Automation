@@ -8,7 +8,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtendReporter 
 {
-	public static void  GenerateExtentReport() 
+	public static ExtentReports  GenerateExtentReport() 
 	{
 		ExtentReports extentreports=new ExtentReports();
 		File extentReportFile=new File("./test-output/ExtentReport/extentReport.html");
@@ -23,6 +23,8 @@ public class ExtendReporter
 		
 		extentreports.setSystemInfo("Application URL ", "https://naveenautomationlabs.com/opencart");
 		extentreports.setSystemInfo("Broswer ", "Chrome");
+		
+		return extentreports;
 			
 
 	}
