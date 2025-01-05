@@ -13,7 +13,7 @@ public class myListeners implements ITestListener
 	@Override
 	public void onTestStart(ITestResult result) 
 	{
-		System.out.println("Project execution stared ");
+		System.out.println("ChromeDriver has launched successfully");
 	}
 
 	@Override
