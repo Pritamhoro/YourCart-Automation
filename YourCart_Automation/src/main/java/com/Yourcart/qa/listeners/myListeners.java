@@ -42,7 +42,7 @@ public class myListeners implements ITestListener
 	@Override
 	public void onStart(ITestContext context) 
 	{
-		System.out.println("Onstart executing project tests");
+		System.out.println("Start running the project tests");
 	}
 
 	@Override
